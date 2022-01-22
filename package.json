@@ -1,0 +1,36 @@
+{
+  "name": "week3-oguzhanslmtemiz",
+  "version": "1.0.0",
+  "main": "src/server.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "ts-node --files src/server.ts",
+    "dev": "nodemon --exec ts-node --files src/server.ts",
+    "build": "tsc",
+    "build2": "tsc -p ."
+  },
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "cors": "^2.8.5",
+    "dotenv": "^14.2.0",
+    "express": "^4.17.2",
+    "express-session": "^1.17.2",
+    "helmet": "^5.0.1",
+    "http-status": "^1.5.0",
+    "joi": "^17.5.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.1.7"
+  },
+  "devDependencies": {
+    "@types/bcrypt": "^5.0.0",
+    "@types/cors": "^2.8.12",
+    "@types/express": "^4.17.13",
+    "@types/express-session": "^1.17.4",
+    "@types/jsonwebtoken": "^8.5.8",
+    "@types/mongoose": "^5.11.97",
+    "@types/node": "^17.0.10",
+    "nodemon": "^2.0.15",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.5.4"
+  }
+}
